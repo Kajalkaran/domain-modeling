@@ -15,5 +15,22 @@ CREATE TABLE students (
 );
 
 -- Create the rest of the tables
+CREATE TABLE teachers(
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  first_name TEXT,
+  last_name TEXT,
+  bio TEXT
+);
+INSERT INTO teachers(
+  first_name,
+  last_name,
+  bio
+) 
+VALUES(
+  "Ben",
+  "Block",
+  "A seasoned pro instructor"
+);
+
 
 
